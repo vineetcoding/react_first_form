@@ -1,0 +1,10 @@
+body{
+    background:aqua;
+}
+form{
+    text-align: center;
+    /* display: flex; */
+}
+div{
+    padding: 1.5%;
+}
