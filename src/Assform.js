@@ -13,7 +13,7 @@ export default function Myform() {
     const handleChange = (e) =>{
         const new_name = e.target.name;
         const value = e.target.value;
-        console.log(new_name, value)
+        // console.log(new_name, value)
         setData((pre)=>{
             return{
                 ...pre, [new_name]:value
